@@ -10,7 +10,7 @@ const styles: SystemStyleObject = {
   '.image': {
     width: '20rem',
     height: '20rem',
-    maxWidth: '396px',
+    // maxWidth: '396px',
     maxHeight: '328px',
     right: '17rem',
     position: 'absolute',
