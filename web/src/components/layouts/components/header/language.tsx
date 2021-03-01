@@ -10,20 +10,18 @@ const Language = (props) => {
       <IntlContextConsumer>
         {({ languages, language: currentLocale }) =>
           languages
-            .filter((language) => language === currentLocale)
+            .filter((language) => language !== currentLocale)
             .map((language) => (
               <a
                 key={language}
-                onClick={() =>
-                  changeLocale(languages.find((l) => l !== language))
-                }
+                onClick={() => changeLocale(language)}
                 style={{
                   marginLeft: '2px',
                   cursor: 'pointer',
                 }}
                 {...props}
               >
-                {localized[language]}
+                {localized[languages.find((l) => l !== language)]}
               </a>
             ))
         }
