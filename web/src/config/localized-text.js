@@ -12,12 +12,12 @@ export default {
       no: 'Kontakt oss',
       en: 'Contact us',
     },
-    en: 'English version',
+    en: 'Engelsk versjon',
     englishVersion: {
       no: 'Engelsk versjon',
       en: 'English version',
     },
-    no: 'Norsk versjon',
+    no: 'Norwegian version',
     norwegianVersion: {
       no: 'Norsk versjon',
       en: 'Norwegian version',
