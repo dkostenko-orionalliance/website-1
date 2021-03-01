@@ -21,7 +21,7 @@ const Language = (props) => {
                 }}
                 {...props}
               >
-                {localized[languages.find((l) => l !== language)]}
+                {localized[language]}
               </a>
             ))
         }
