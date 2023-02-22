@@ -19,7 +19,7 @@ const styles: SystemStyleObject = {
   },
   '.mobileImage': {
     width: '20rem',
-    display: ['block', 'block', 'none'],
+    display: ['block', 'block', 'none'], // GIT_AUTHOR_DATE=$(date -d'2021-01-01 12:12:00') GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE" git commit -m 'last 1'
   },
 };
 
